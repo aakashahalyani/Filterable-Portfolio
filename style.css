@@ -1,0 +1,63 @@
+.portfolio {
+    text-align: center;
+  }
+  
+  .filter-button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .image-box {
+    margin: 10px;
+    display: flex;
+  }
+  
+  .image-box img {
+    width: 30%; /* Adjust as needed */
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .image-box img:last-child {
+    margin-right: 0;
+  }
+  .filter-button {
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: black; /* Change background color on hover */
+    color: white;
+    border: 2px solid black;
+  }
+  @keyframes zoomIn {
+    0% { transform: scale(0); }
+    100% { transform: scale(1); }
+  }
+  
+  .image-box {
+    margin: 10px;
+    display: flex;
+    animation: zoomIn 0.5s ease-in-out; /* Change to zoomIn animation */
+    display: none;
+  }
+  
+  div #img1{
+    width: 50%;
+    height: 500px;
+
+  }
+  
+  
